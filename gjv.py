@@ -1,1 +1,0 @@
-def calcular_probabilidades (self)-> dict [str, float]
