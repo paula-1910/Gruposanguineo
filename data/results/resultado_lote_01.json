@@ -1,0 +1,26 @@
+[
+    {
+        "fecha_analisis": "2026-10-07 11:11:21",
+        "padres": {
+            "padre": "A",
+            "madre": "B"
+        },
+        "resultados_descendencia": {
+            "A": 18.75,
+            "B": 18.75,
+            "AB": 56.25,
+            "O": 6.25
+        }
+    },
+    {
+        "fecha_analisis": "2026-10-07 11:11:21",
+        "padres": {
+            "padre": "O",
+            "madre": "AB"
+        },
+        "resultados_descendencia": {
+            "A": 50.0,
+            "B": 50.0
+        }
+    }
+]

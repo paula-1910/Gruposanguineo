@@ -123,7 +123,7 @@ class CalculadoraHerenciaSangre:
             f"Grupo {grupo}" for grupo in self._porcentajes.keys()
         ]
         valores = list(self._porcentajes.values())
-        colores = ["#ff9999", "#66b3ff", "#99ff99", "#ffcc99"]
+        colores = ["#e59177", "#e091d7", "#99ff99", "#E7CF64"]
 
         plt.figure(figsize=(7, 7))
         plt.pie(
