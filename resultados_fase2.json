@@ -1,6 +1,6 @@
 [
     {
-        "fecha_analisis": "2026-10-07 11:07:17",
+        "fecha_analisis": "2026-10-12 12:17:30",
         "padres": {
             "padre": "A",
             "madre": "B"
@@ -13,7 +13,7 @@
         }
     },
     {
-        "fecha_analisis": "2026-10-07 11:07:17",
+        "fecha_analisis": "2026-10-12 12:17:30",
         "padres": {
             "padre": "A",
             "madre": "O"
@@ -24,7 +24,7 @@
         }
     },
     {
-        "fecha_analisis": "2026-10-07 11:07:17",
+        "fecha_analisis": "2026-10-12 12:17:30",
         "padres": {
             "padre": "AB",
             "madre": "B"
@@ -36,53 +36,7 @@
         }
     },
     {
-        "fecha_analisis": "2026-10-07 11:07:17",
-        "padres": {
-            "padre": "O",
-            "madre": "O"
-        },
-        "resultados_descendencia": {
-            "O": 100.0
-        }
-    },
-    {
-        "fecha_analisis": "2026-10-07 11:08:30",
-        "padres": {
-            "padre": "A",
-            "madre": "B"
-        },
-        "resultados_descendencia": {
-            "A": 18.75,
-            "B": 18.75,
-            "AB": 56.25,
-            "O": 6.25
-        }
-    },
-    {
-        "fecha_analisis": "2026-10-07 11:08:31",
-        "padres": {
-            "padre": "A",
-            "madre": "O"
-        },
-        "resultados_descendencia": {
-            "A": 75.0,
-            "O": 25.0
-        }
-    },
-    {
-        "fecha_analisis": "2026-10-07 11:08:31",
-        "padres": {
-            "padre": "AB",
-            "madre": "B"
-        },
-        "resultados_descendencia": {
-            "A": 12.5,
-            "B": 50.0,
-            "AB": 37.5
-        }
-    },
-    {
-        "fecha_analisis": "2026-10-07 11:08:31",
+        "fecha_analisis": "2026-10-12 12:17:30",
         "padres": {
             "padre": "O",
             "madre": "O"
