@@ -139,10 +139,7 @@ class CalculadoraHerenciaSangre:
         )
         plt.show()
 
-
-# ==========================================
 # EJEMPLO DE USO
-# ==========================================
 if __name__ == "__main__":
     # Ejemplo 1: Padre grupo A y Madre grupo B
     cruce = CalculadoraHerenciaSangre(padre_grupo="A", madre_grupo="B")
