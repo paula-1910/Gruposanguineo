@@ -130,9 +130,7 @@ class CalculadoraHerenciaSangre:
         )
         plt.show()
 
-    # ==========================================
     # MÉTODOS AÑADIDOS EN LA FASE 2
-    # ==========================================
 
     def guardar_analisis_json(self, ruta_archivo: str = "analisis_resultados.json"):
         """Guarda el análisis actual en un archivo JSON externo agregando fecha de análisis,
@@ -165,7 +163,7 @@ class CalculadoraHerenciaSangre:
         with open(ruta_archivo, "w", encoding="utf-8") as archivo:
             json.dump(registros, archivo, indent=4, ensure_ascii=False)
 
-        print(f"✅ Análisis guardado correctamente en '{ruta_archivo}'.")
+        print(f" Análisis guardado correctamente en '{ruta_archivo}'.")
 
     @classmethod
     def procesar_desde_json(cls, ruta_archivo_entrada: str, ruta_archivo_salida: str = "analisis_resultados.json"):
@@ -177,11 +175,11 @@ class CalculadoraHerenciaSangre:
             with open(ruta_archivo_entrada, "r", encoding="utf-8") as archivo:
                 datos_padres = json.load(archivo)
         except FileNotFoundError:
-            print(f"❌ Error: El archivo '{ruta_archivo_entrada}' no existe.")
+            print(f" Error: El archivo '{ruta_archivo_entrada}' no existe.")
             return
         except json.JSONDecodeError:
             print(
-                f"❌ Error: El archivo '{ruta_archivo_entrada}' no tiene un formato JSON válido."
+                f" Error: El archivo '{ruta_archivo_entrada}' no tiene un formato JSON válido."
             )
             return
 
@@ -201,13 +199,11 @@ class CalculadoraHerenciaSangre:
                 )
             except (ValueError, TypeError) as e:
                 print(
-                    f"⚠️ Error procesando el registro {i} (Padre: '{padre}', Madre: '{madre}'): {e}"
+                    f" Error procesando el registro {i} (Padre: '{padre}', Madre: '{madre}'): {e}"
                 )
 
 
-# ==========================================
 # EJEMPLO DE USO - FASE 2
-# ==========================================
 if __name__ == "__main__":
     # 1. Ejemplo de guardar un único análisis en JSON:
     analisis = CalculadoraHerenciaSangre(padre_grupo="A", madre_grupo="B")
